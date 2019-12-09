@@ -2825,7 +2825,7 @@ gulp-util@^3.0.0, gulp-util@^3.0.6:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp@^3.6.2:
+gulp@^3.9.1:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-3.9.1.tgz#571ce45928dd40af6514fc4011866016c13845b4"
   integrity sha1-VxzkWSjdQK9lFPxAEYZgFsE4RbQ=
@@ -3645,8 +3645,9 @@ lru-queue@0.1:
     es5-ext "~0.10.2"
 
 macaddress@^0.2.8:
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.9.tgz#3579b8b9acd5b96b4553abf0f394185a86813cb3"
+  integrity sha512-k4F1JUof6cQXxNFzx3thLby4oJzXTXQueAOOts944Vqizn+Rjc2QNFenT9FJSLU1CH3PmrHRSyZs2E+Cqw+P2w==
 
 make-error-cause@^1.1.1:
   version "1.2.2"
