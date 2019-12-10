@@ -8,6 +8,7 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 <script>
 	layoutvar="home";
 </script>
+<div style="background:#5ccbe0">
 <div class="grid-container">
 	<div class="grid-x grid-padding-x align-center">
 		<div class="cell small-12 medium-10 large-8">
@@ -15,9 +16,9 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 				<div class="small-3 cell ">
 					<img src="{{site.url}}/assets/img/logo.png" style="margin-top:0.6em;">
 				</div>
-				<div class="small-9 cell">
+				<div class="small-9 cell s-ws-top">
 					<ul class="menu align-right hover">
-		        <li><a href="" class="dbc">Careers</a></li>
+		        <li><a href="" class="dbc">Questions</a></li>
 		      </ul>
 				</div>
 			</div>
@@ -34,6 +35,7 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 			<img src="https://previews.dropbox.com/p/thumb/AApECosnuYTlx0aBk5kTmtlJp_CQP1NSSSuav0EVLDX0kfZ4KshU2F80gY0sCRYHT2BxThxLVoPnLINnNXmttLeVi5vLdYpzKuW191yQHjLXSxTw4XrC164VAodwduZOY1eMYFwH4NNiaauNB6IY5OPhtHEhY231a3r1BRyVaMfWn3hBELAt_11ree6CI1gLqZOQrh6igKGKRNTiUFpJBtOov8d2l-i8xj5lYYEgGdThi4kXP5FzVmWgOwcLcaSgWoizbAh5CEdQsKGGJs6DECNWYf5Xxm8ffgKkjkTd-CRwwnVtJRAjMR7d-OhBKkyz5ZU5X9-H3UtcuxKgEpqRQPy_u39wnV4dze1Rwq3bYTjVhfURAt3VkwA3m_nHGhd7IppWGh3Z4naGH1qjycCua4cD51S5qiq8EK3704JXk4JHRQ/p.png?fv_content=true&size_mode=5">
 		</div>
 	</div>
+</div>
 </div>
 Free Trial class
 <div class="grid-container">
