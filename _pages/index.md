@@ -231,7 +231,7 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 </div>
 
 
-<div style="background: url('../assets/img/dummy2.jpg') no-repeat; background-size: cover;">
+<div style="background: url('{{site.url}}/assets/img/dummy2.jpg') no-repeat; background-size: cover;">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x align-center">
 			<div class="small-6 small-offset-6 cell b-ws-top b-ws-bottom">
