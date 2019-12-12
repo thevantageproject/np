@@ -6,6 +6,7 @@
 	border-bottom:3px solid scale-color($button-background, $lightness: -30%);
 	text-transform: uppercase;
 	font-weight:bold;
+	font-size: 14px;
 	&.success{
 		border-bottom:3px solid scale-color($success-color, $lightness: -30%);
 		
@@ -272,7 +273,9 @@ ol,div,li,span,a,p,h2,h3,h4,strong {
 .wbr{
 	border-color:$white !important;
 }
-
+.lgbr{
+	border:1px solid #dedede;
+}
 .yc{
 	color:$yellow !important;
 }
@@ -315,6 +318,9 @@ ol,div,li,span,a,p,h2,h3,h4,strong {
 .ybg{
 	background:$yellow !important;
 }
+.gbg{
+	background:$green !important;
+}
 .bgbg{
 	background:$bluegreen !important;
 }
@@ -331,16 +337,16 @@ ol,div,li,span,a,p,h2,h3,h4,strong {
   background:rgba($light-gray,0.3) !important;
 }
 .scolor{
-	color:rgba($black,0.76);
+	color:rgba($darkblue,0.76);
 }
 .scolor2{
-	color:rgba($black,0.54);
+	color:rgba($darkblue,0.54);
 }
 .scolor3{
-	color:rgba($black,0.26);
+	color:rgba($darkblue,0.26);
 }
 .scolor4{
-	color:rgba($black,0.12);
+	color:rgba($darkblue,0.12);
 }
 .wcolor{
 	color:rgba($white,0.81);
@@ -418,22 +424,6 @@ small::before{
 	font-weight: 400;
 }
 
-$timeline-color: $white;
-$timeline-transition: all 0.25s ease-in;
-$timeline-item-card-bg: $white;
-$timeline-item-font-color: $white;
-$timeline-item-card: false;
-$timeline-item-card-radius: $global-radius;
-
-%clearfix {
-  &::after,
-  &::before {
-    clear: both;
-    content: '';
-    display: block;
-    width: 100%;
-  }
-}
 
 .overlay{
   position: absolute;
@@ -451,144 +441,6 @@ $timeline-item-card-radius: $global-radius;
   left: 50%;
   z-index: 15;
   transform: translate(-50%, -50%);
-}
-// Timeline
-.timeline {
-  padding: 0 10px;
-  position: relative;
-  transition: $timeline-transition;
-  width: 100%;
-
-  &::before {
-    background: rgba($timeline-color,0.2);
-    content: '';
-    height: 100%;
-    left: 50%;
-    position: absolute;
-    top: 0;
-    width: 3px;
-    display:block;
-  }
-
-  &::after {
-    clear: both;
-    content: '';
-    display: table;
-    width: 100%;
-  }
-
-  a{
-    color: $timeline-item-font-color;
-    font-weight: bold;
-    transition: $timeline-transition;
-
-    &:hover {
-      box-shadow: 0 1px 0px 0px $timeline-item-font-color;
-      transition: $timeline-transition;
-    }
-  }
-
-  .timeline-item {
-    // margin-bottom: 50px;
-    position: relative;
-    @extend %clearfix;
-
-    .timeline-icon {
-      background: rgba($lightblue,0.9);
-      box-shadow:0 0 0 3px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-      border-radius: 50%;
-      height: 50px;
-      left: 50%;
-      margin-left: -23px;
-      overflow: hidden;
-      position: absolute;
-      top: 0;
-      width: 50px;
-      line-height:1;
-      padding-top:10px;
-      
-    }
-
-    .timeline-content {
-      padding: 5px 20px;
-      text-align: right;
-      transition: $timeline-transition;
-      width: 45%;
-
-      @if $timeline-item-card == true {
-        background: $timeline-item-card-bg;
-        border-radius: $timeline-item-card-radius;
-
-        p {
-          color: $black;
-        }
-      } @else {
-        background: transparent;
-
-        p {
-          color: $timeline-item-font-color;
-        }
-      }
-
-      p {
-        font-size: 1.2em;
-        line-height: 1;
-        margin-bottom: 0;
-      }
-
-      
-
-      &.right {
-        float: right;
-        text-align: left;
-      }
-    }
-  }
-}
-
-
-
-
-.animate{
-		-webkit-transition: all 10s linear;
-    -ms-transition: all 10s linear;
-    -o-transition: all 10s linear;
-    -transition: all 10s linear;
-    transition: all 10s linear;
-}
-
-//loading button
-.lds-ripple {
-  display: inline-block;
-  position: relative;
-  width: 64px;
-  height: 64px;
-}
-.lds-ripple div {
-  position: absolute;
-  border: 4px solid #fff;
-  opacity: 1;
-  border-radius: 50%;
-  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-}
-.lds-ripple div:nth-child(2) {
-  animation-delay: -0.5s;
-}
-@keyframes lds-ripple {
-  0% {
-    top: 28px;
-    left: 28px;
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-  100% {
-    top: -1px;
-    left: -1px;
-    width: 58px;
-    height: 58px;
-    opacity: 0;
-  }
 }
 
 code{
@@ -641,66 +493,7 @@ code{
 
 svg#i-clock {vertical-align: middle;}
 
-
-.ssbg{
-  background:#fafafa url('../img/spaceshuttle.jpg') no-repeat; background-position: -35% 100%;
-}
-.handbg{
-  background:#fafafa url('../img/hand.jpg') no-repeat; background-position: -35% 100%;
-}
-.cbg{
-  background:#fafafa url('../img/capsule.jpg') no-repeat;background-position:120% 50%;
-}
-.robotwbg{
-  background:#fafafa url('../img/robotw.jpg') no-repeat;background-position: 10% 80%;
-}
-.suit2bg{
-  background:#fafafa url('../img/suit2.jpg') no-repeat; background-position: 150% -20%;
-}
-.suitbg{
-  background:#fafafa url('../img/suit.jpg') no-repeat; background-position: -20% 50%;
-}
-.rsuitbg{
-  background:#fafafa url('../img/rsuit.jpg') no-repeat; background-position: 108% 50%;
-}
-.robotbg{
-  background:#fafafa url('../img/robot2.jpg') no-repeat; background-position: 100% 0%;
-}
-.fsuitbg{
-  background:#fafafa url('../img/fsuit.jpg') no-repeat; background-position: 100% 0%;
-}
-.bpackbg{
-  background:#fafafa url('../img/bpack.jpg') no-repeat; background-position: 210% 0%;
-}
-.helmetbg{
-  background:#fafafa url('../img/helmet1.jpg') no-repeat; background-position: 0% 90%;
-}
-.helmet2bg{
-  background:#fafafa url('../img/helmet2.jpg') no-repeat; background-position: 0% 90%;
-}
-.scrollbox{
-  overflow: scroll;
-}
-.callout3{
-  img{
-    width: 75%;
-  }
-}
-.angellist_jobs-title-link{
-  color: $lightblue !important;
-  font-weight: bold !important;
-}
-.angellist_jobs-job{
-  margin-bottom: 1.5em !important;
-}
-.side-navg {
-  li>a{
-    @extend .scolor2;  
-  }
-  ul li a{
-    @extend .scolor3;
-  }
-  .is-active{
-    color: $lightblue;
-  }
+header{
+  // border-bottom:1px solid $light-gray;
+  background-color:$darkblue;
 }

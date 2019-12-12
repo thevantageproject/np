@@ -49,7 +49,7 @@ url: http://127.0.0.1.xip.io:3000
 
 # Outputting
 # permalink:        "/blog/:year/:title/"
-permalink: "/:title"
+permalink: "/:categories/:title"
 paginate_path:    "/blog/page:num"
 paginate:         5
 

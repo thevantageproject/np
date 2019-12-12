@@ -1,23 +1,20 @@
 {% include head.html %}
 <header>
-	<div class="row">
-		<div class="large-3 large-offset-3 medium-4 medium-offset-2 small-6 small-offset-3 columns np">
-			<div class="row">
-				<div class="small-4 columns">
-					<img src="{{site.url}}/assets/img/vantage-logo-full.png" style="margin-top:0.6em;">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x align-center">
+			<div class="cell small-12 medium-10 large-8" style="padding-bottom: 12em;">
+				<div class="grid-x grid-padding-x">
+					<div class="small-6 cell s-ws-top">
+						<img src="{{site.url}}/assets/img/logo-white-small.png" style="margin-top:0.6em; height: 32px;">
+						<div class="wcolor2 s xs-ws-top">Top-rated NEET coaching for everyone</div>
+					</div>
+					<div class="small-6 cell m-ws-top">
+						<ul class="menu align-right hover">
+		          {% include components/nav-menu.html %}
+			      </ul>
+					</div>
 				</div>
-<div class="small-8 columns">
-					<a href="{{site.url}}"><div class="sans2 bkc f-2x" style="line-height:1;">The <br> Vantage <br>Project</div></a>
-</div>
 			</div>
-		</div>
-		<div class="small-12 medium-6 columns m-ws-top">
-			<ul class="menu align-right">
-        <li><a href="https://meetings.hubspot.com/aditya16" class="button">Let's talk</a></li>
-        {% include components/nav-menu.html %}
-<!-- <li><a href="{{site.url}}/ico.html" class="dbc">ICO Services</a></li>
-        <li><a href="{{site.url}}" class="dbc">Blockchain</a></li> -->
-      </ul>
 		</div>
 	</div>
 </header>

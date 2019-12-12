@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600");
-@import url("https://use.typekit.net/fld4sdt.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+// @import url("https://use.typekit.net/fld4sdt.css");
 
 //  Foundation for Sites Settings
 //  -----------------------------
@@ -57,17 +57,18 @@ $darkblack: #222222;
 $black       : rgba(93, 86, 80,0.87);
 $lightblack: rgba(93, 86, 80,0.56);
 $grey: rgba(93, 86, 80,0.27);
-$lightgrey: rgba(93, 86, 80,0.12);
-$darkblue:#112e50;
-$lightblue: #3E92CC;
-$yellow: #F8BA07;
+$lightgrey: #e0dcd3;
+$darkblue: #1f2b33;
+$lightblue: #528fcc;
+$yellow: #e6a123;
 $bluegreen: #00A9A5;
 $red: #9F2820;
-
+// $green: #1EA450;
+$green: #5fba43;
 $foundation-palette: (
   primary: #2199e8,
   secondary: #777,
-  success: #3adb76,
+  success: #1EA450,
   warning: #ffae00,
   alert: #ec5840,
 );
@@ -76,7 +77,7 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $body-background: $white;
 $body-font-color: $black;
-$font-family-sans-serif: 'Source Sans Pro',  Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: 'Open Sans',  Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $body-font-family: $font-family-sans-serif;
 $body-antialiased: true;
