@@ -3,7 +3,7 @@ permalink: /
 layout: bare
 title: NEETprep.com
 <!-- image: bg2.jpg -->
-description: We help daring entrepreneurs build Vantage. for Vantage is the highest yield leverage available. 
+<!-- description: We help daring entrepreneurs build Vantage. for Vantage is the highest yield leverage available.  -->
 ---
 <script>
 	layoutvar="home";
@@ -26,11 +26,12 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 					</div>
 				</div>
 			</div>
-			<div class="grid-container" style="margin-top: -2em">
+			<div class="grid-container" style=" margin-top: 2em">
 				<div class="grid-x grid-padding-x">
-					<div class="small-8 cell " style="margin-top: 6em">
+					<div class="small-8 cell " style="margin-top: 4em">
 						<!-- <p class="bc f-1-5x" style="line-height: 1.2;">We are every Indian's bridge between a future doctor's dreams and reality. </p> -->
-						<h1><span class="bc">Award-winning</span> <br> Online NEET coaching institute <br> <span class="bc">for every Indian</span></h1>
+						<h1><span class="bc">Personal, Faculty mentored</span> <br> Online NEET coaching<br> <span class="bc">for every Indian</span></h1>
+						<p class="scolor s-ws-top">1-on-1 committed attention until you crack NEET</p>
 					</div>
 					<div class="small-4 cell">
 						<img src="{{site.url}}/assets/img/dummy.jpg">
@@ -314,7 +315,7 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 					<img src="https://miro.medium.com/max/1600/1*iD94E_pCInOFEp660Z8QqA.png">
 				</div>
 				<div class="small-8 cell">
-					<h3>Never Prepare Alone Again.</h3>
+					<h3>Never prepare alone. Again.</h3>
 					<p>We help you keep track of your progress with an intuitive dashboard that estimates your score, compares your pace with other students, and tracks your learning.</p>
 					<p>Our smart review system allows you to review your performance based on time, difficulty, subject, or according to your own bookmarks, so you’ll know exactly what to focus on next.</p>
 					<a class="btn np">Find batchmates near me</a>
@@ -371,7 +372,7 @@ description: We help daring entrepreneurs build Vantage. for Vantage is the high
 	<div class="grid-x grid-padding-x align-center">
 		<div class="small-12 medium-10 large-8 cell b-ws-top b-ws-bottom">		
 			<h3>Our success stories</h3>	
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x m-ws-top">
 			  <div class="cell small-4">
 			  	<img src="https://embed-ssl.wistia.com/deliveries/5d54767c451cbea26a50ddfddb2c312dddffbc0f.jpg?image_crop_resized=960x540">
 			  </div>

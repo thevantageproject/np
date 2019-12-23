@@ -16,6 +16,11 @@
       border-bottom:3px solid $lightblue; 
     }
   }
+  &.nakedl{
+    li a{
+      padding-left:0;
+    }
+  }
 }
 
 .progress .meter {
@@ -36,12 +41,14 @@
 }
 article,.articles{
   h1,h2,h3,h4,h5{
-    font-weight:bold;
-    @extend .bkc;
-    letter-spacing:-1px;
+    // font-weight:bold;
+    // @extend .bkc;
+    // letter-spacing:-1px;
   }
 }
-
+h1,h2,h3,h4,h5{
+  // letter-spacing: -1px
+}
 form{
  &.large{
   .input-group-field{

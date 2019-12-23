@@ -399,6 +399,13 @@ ol,div,li,span,a,p,h2,h3,h4,strong {
 		transition: color 0.5s;
 	}
 }
+.hvbg{
+	transition: background 0.5s;
+	&:hover, &:focus{
+		background:$light-gray;
+		transition: background 0.5s;
+	}
+}
 a{
   &.u{
     border-bottom:1px dotted #dedede;
@@ -496,4 +503,7 @@ svg#i-clock {vertical-align: middle;}
 header{
   // border-bottom:1px solid $light-gray;
   background-color:$darkblue;
+}
+footer.main{
+	background-color:$lightblue;
 }
