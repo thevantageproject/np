@@ -13,7 +13,7 @@ title: NEETprep.com
 		<div class="cell small-12 medium-10 large-8">
 			<div class="grid-container">
 				<div class="grid-x grid-padding-x">
-					<div class="small-4 cell text-right">
+					<div class="medium-5 large-4 small-6 cell text-right">
 						<img src="{{site.url}}/assets/img/logo.png" style="margin-top:3em;">
 						<div class="bc f-1-25x">badho aage</div>
 					</div>
@@ -29,16 +29,16 @@ title: NEETprep.com
 			</div>
 			<div class="grid-container" style=" margin-top: 2em">
 				<div class="grid-x grid-padding-x">
-					<div class="small-8 cell " style="margin-top: 4em">
+					<div class="medium-8 small-12 cell " style="margin-top: 4em">
 						<!-- <p class="bc f-1-5x" style="line-height: 1.2;">We are every Indian's bridge between a future doctor's dreams and reality. </p> -->
 						<h2 class="bc">Personalized. Faculty-mentored.</h2>
 						<h1>Online NEET 2020 coaching</h1>
 						<h3 class="scolor2">for every Indian.</h3>
 						<!-- <p class="scolor s-ws-top f-1-25x">1-on-1 regular attention until you crack NEET</p> -->
-						<p class="scolor s-ws-top-p f-1-25x nm">Set goal every 5 days.</p>
-						<p class="scolor f-1-25x">We work with you to achieve it until you crack NEET</p>
+						<p class="scolor s-ws-top-p nm">We help set regular goals every 5 days.</p>
+						<p class="scolor">And work with you to achieve them until you crack NEET.</p>
 					</div>
-					<div class="small-4 cell">
+					<div class="medium-4 small-12 cell">
 						<img src="{{site.url}}/assets/img/dummy.jpg">
 					</div>
 				</div>
@@ -61,9 +61,9 @@ title: NEETprep.com
 			                  <input type="text" name="name" required="" placeholder="Your Name">
 			                </label>
 			              </div>
-			              <div class="small-12 medium-10 large-4 cell np">
+			              <div class="small-12 medium-10 large-4 cell">
 			                <label class="wcolor">Your mobile
-			                  <input type="tel" name="mobile" required="" placeholder="Your Phone number" minlength="10" maxlength="10" pattern="[789][0-9]{9}">
+			                  <input type="tel" name="mobile" required="" placeholder="Your Phone number" minlength="10" maxlength="10" pattern="[6789][0-9]{9}">
 			                  <!-- <input type="tel" name="mobile" required placeholder="Your Phone number" minlength="8" maxlength="12"> -->
 			                </label>
 			              </div>
@@ -76,7 +76,9 @@ title: NEETprep.com
 			          <input type="hidden" name="utm_source" id="utm_source" value="">
 			          <input type="hidden" name="utm_medium" id="utm_medium" value="">
 			          <input type="hidden" name="gclid" id="gclid" value="">
-			          <input type="hidden" name="redirect_url" id="redirect" value="https://www.neetprep.com/dashboard">
+			          <!-- <input type="hidden" name="redirect_url" id="redirect" value="https://www.neetprep.com/dashboard"> -->
+			          <input type="hidden" name="hubspotOwnerId" id="hubspotOwnerId" value="30351826">
+								<input type="hidden" name="redirect_url" value="https://www.neetprep.com/">
 			        </form>
 			      </div>
 					</div>
@@ -119,11 +121,11 @@ title: NEETprep.com
 			<div class="cell small-12 medium-10 large-8">
 				<div class="grid-container">
 					<div class="grid-x grid-padding-x b-ws-top b-ws-bottom">
-						<div class="small-6 cell">
+						<div class="small-12 medium-6 cell">
 							<h3 class="wcolor">NEET 2019 Results</h3>
-							<h5 class="wc b-ws-top">1000+ selections</h5>
+							<!-- <h5 class="wc b-ws-top">1000+ selections</h5>
 							<h5 class="wc">Selection percentage: 8%</h5>
-							<p class="wcolor s2">Industry avg (including top coaching institutes): 0.2%</p>
+							<p class="wcolor s2">Industry avg (including top coaching institutes): 0.2%</p> -->
 							<div class="grid-x grid-padding-x b-ws-top">
 								<div class="small-4 cell">
 									<img class="mt-3 circle-img lgbr" src="https://learner-users.s3.ap-south-1.amazonaws.com/1563599287664" width="115" height="115" style="overflow:hidden;width:96px;height:96px;" />
@@ -140,7 +142,7 @@ title: NEETprep.com
 								</div>
 							</div>
 						</div>
-						<div class="small-5 small-offset-1 cell">
+						<div class="medium-5 medium-offset-1 small-12 cell">
 							<div class="grid-x grid-padding-x">
 								<div class="small-offset-8 small-2 cell">
 									<!-- <div class="wcolor2 s2 bold">AIR </div> -->
@@ -151,7 +153,7 @@ title: NEETprep.com
 							</div>
 							<div class="grid-x grid-padding-x xs-ws-bottom">
 								<div class="small-2 cell" style="padding-right: 0;">
-						      <img class="mt-3 circle-img lgbr gs hv" src="https://randomuser.me/api/portraits/men/37.jpg"  />
+						      <img class="mt-3 circle-img lgbr gs hv" src="{{site.url}}/assets/img/students/tushar.jpg"  />
 						    </div>
 						    <div class="small-6 cell">
 	                <p class="bold s wcolor nm">Tushar Aggarwal</p>
@@ -167,7 +169,7 @@ title: NEETprep.com
               </div>
               <div class="grid-x grid-padding-x xs-ws-bottom">
 								<div class="small-2 cell" style="padding-right: 0;">
-						      <img class="mt-3 circle-img lgbr gs hv" src="https://randomuser.me/api/portraits/men/31.jpg"  />
+						      <img class="mt-3 circle-img lgbr gs hv" src="{{site.url}}/assets/img/students/akash.jpg"  />
 						    </div>
 						    <div class="small-6 cell">
 	                <p class="bold s wcolor nm">Akash Chaudhary</p>
@@ -182,7 +184,7 @@ title: NEETprep.com
               </div>
               <div class="grid-x grid-padding-x xs-ws-bottom">
 								<div class="small-2 cell" style="padding-right: 0;">
-						      <img class="mt-3 circle-img lgbr gs hv" src="https://randomuser.me/api/portraits/men/34.jpg"  />
+						      <img class="mt-3 circle-img lgbr gs hv" src="{{site.url}}/assets/img/students/hardik.jpg"  />
 						    </div>
 						    <div class="small-6 cell">
 	                <p class="bold s wcolor nm">Hardik Raj</p>
@@ -197,7 +199,7 @@ title: NEETprep.com
               </div>
               <div class="grid-x grid-padding-x xs-ws-bottom">
 								<div class="small-2 cell" style="padding-right: 0;">
-						      <img class="mt-3 circle-img lgbr gs hv" src="https://randomuser.me/api/portraits/men/39.jpg"  />
+						      <img class="mt-3 circle-img lgbr gs hv" src="{{site.url}}/assets/img/students/nitin.png"  />
 						    </div>
 						    <div class="small-6 cell">
 	                <p class="bold s wcolor nm">Nitin Pandey</p>
@@ -212,7 +214,7 @@ title: NEETprep.com
               </div>
               <div class="grid-x grid-padding-x xs-ws-bottom">
 								<div class="small-2 cell" style="padding-right: 0;">
-						      <img class="mt-3 circle-img lgbr gs hv" src="https://randomuser.me/api/portraits/men/36.jpg"  />
+						      <img class="mt-3 circle-img lgbr gs hv" src="{{site.url}}/assets/img/students/vaibhav.jpg"  />
 						    </div>
 						    <div class="small-6 cell">
 	                <p class="bold s wcolor nm">Vaibhav Solanki</p>
@@ -242,9 +244,9 @@ title: NEETprep.com
 <div style="background: url('{{site.url}}/assets/img/dummy2.jpg') no-repeat; background-size: cover;">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x align-center">
-			<div class="small-6 small-offset-6 cell b-ws-top b-ws-bottom">
+			<div class="medium-6 medium-offset-6 small-12 cell b-ws-top b-ws-bottom">
 				<div class="gbg brr">
-					<div class="grid-x grid-padding-x align-center ">
+					<div class="grid-x grid-padding-x align-center" style="margin-bottom: 10em;">
 						<div class="small-10 cell b-ws-top b-ws-bottom">
 						<h3 class="wc">विद्या विघ्नहरिणी, विद्या सर्व जैनी|</h3>
 						<p class="wcolor s">Knowledge relieves pain, Knowledge provides success.</p>
@@ -253,18 +255,18 @@ title: NEETprep.com
 						</div>
 					</div>
 				</div>
-				<div class="grid-x grid-padding-x align-center ">
+				<!-- <div class="grid-x grid-padding-x align-center ">
 					<div class="small-10 cell b-ws-top">
 						<p class="wc bold">" Some quote on the lines of, taqdeer badal sakti hai. Ab hum kisse se kam nahi. I didn't get a chance, my child will."</p>
 						<p class="nm wcolor s">Vaibhavi Devi, Dibrugarh, Bihar</p>
 						<p class="wcolor s">NEET 2019, AIR 1</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 </div>
-<div class="lgbg">
+<!-- <div class="lgbg">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x align-center">
 			<div class="small-12 medium-10 large-8 cell b-ws-top">
@@ -440,4 +442,35 @@ title: NEETprep.com
 			</div>		
 		</div>
 	</div>
-</div>
+</div> -->
+<script type='text/javascript'>
+        // Parse the URL
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+       
+        }
+        // Give the URL parameters variable names
+        var source = getParameterByName('utm_source');
+        var medium = getParameterByName('utm_medium');
+        var campaign = getParameterByName('utm_campaign');
+        var content = getParameterByName('utm_content');
+        var term = getParameterByName('utm_term');
+        var gclid = getParameterByName('gclid');
+         
+        // Put the variable names into the hidden fields in the form.
+      if (document.getElementsByName("utm_source").length > 0) {
+          document.getElementsByName("utm_source")[0].value = source;
+        }
+        if (document.getElementsByName("utm_medium").length > 0) {
+          document.getElementsByName("utm_medium")[0].value = medium;
+        }
+        if (document.getElementsByName("utm_campaign").length > 0) {
+          document.getElementsByName("utm_campaign")[0].value = campaign;
+        }
+        if (document.getElementsByName("gclid").length > 0) {
+          document.getElementsByName("gclid")[0].value = gclid;
+        }
+    </script>
