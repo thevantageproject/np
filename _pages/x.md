@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /x/
 layout: bare
 title: NEETprep.com
 <!-- image: bg2.jpg -->
@@ -17,14 +17,14 @@ title: NEETprep.com
 						<img src="{{site.url}}/assets/img/logo.png" style="margin-top:3em;">
 						<div class="bc f-1-25x">badho aage</div>
 					</div>
-					<div class="small-8 cell m-ws-top">
+					<!-- <div class="small-8 cell m-ws-top">
 						<ul class="menu align-right hover">
 			        <li><a href="" class="scolor2">How-Tos</a></li>
 			        <li><a href="" class="scolor2">Cost</a></li>
 			        <li><a href="" class="scolor2">Ask the Counselor</a></li>
 			        <li><a href="" class="scolor2">Login</a></li>
 			      </ul>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="grid-container" style=" margin-top: 2em">
@@ -32,7 +32,7 @@ title: NEETprep.com
 					<div class="small-8 cell " style="margin-top: 4em">
 						<!-- <p class="bc f-1-5x" style="line-height: 1.2;">We are every Indian's bridge between a future doctor's dreams and reality. </p> -->
 						<h2 class="bc">Personalized. Faculty-mentored.</h2>
-						<h1>Online NEET coaching</h1>
+						<h1>Online NEET 2020 coaching</h1>
 						<h3 class="scolor2">for every Indian.</h3>
 						<!-- <p class="scolor s-ws-top f-1-25x">1-on-1 regular attention until you crack NEET</p> -->
 						<p class="scolor s-ws-top-p f-1-25x nm">Set goal every 5 days.</p>
@@ -85,7 +85,7 @@ title: NEETprep.com
 		</div>
 	</div>
 </div>
-<div class="grid-container">
+<!-- <div class="grid-container">
 	<div class="grid-x grid-padding-x align-center">
 		<div class="cell small-12 medium-10 large-8">
 			<div class="grid-container">
@@ -112,7 +112,7 @@ title: NEETprep.com
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <div class="dbbg m-ws-top m-ws-top-p m-ws-bottom-p">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x align-center">
@@ -143,7 +143,7 @@ title: NEETprep.com
 						<div class="small-5 small-offset-1 cell">
 							<div class="grid-x grid-padding-x">
 								<div class="small-offset-8 small-2 cell">
-									<div class="wcolor2 s2 bold">AIR </div>
+									<!-- <div class="wcolor2 s2 bold">AIR </div> -->
 								</div>
 								<div class="small-2 cell">
 									<div class="wcolor2 s2 bold">Score </div>
@@ -159,7 +159,7 @@ title: NEETprep.com
 	                <!-- <div class="wcolor s2">Score <span class="wc">660</span></div> -->
 	              </div>
 	              <div class="small-2 cell">
-                  <div class="wc bold f-1-25x">86</div>
+                  <!-- <div class="wc bold f-1-25x">86</div> -->
                 </div>
                 <div class="small-2 cell">
                   <div class="wc f-1-25x">660</div>
@@ -174,7 +174,7 @@ title: NEETprep.com
 	                <p class="s2 wcolor2 nm" style="line-height: 1">Uttar Pradesh</p>
 	              </div>
 	              <div class="small-2 cell">
-                  <div class="wc bold f-1-25x">86</div>
+                  <!-- <div class="wc bold f-1-25x">86</div> -->
                 </div>
                 <div class="small-2 cell">
                   <div class="wc f-1-25x">658</div>
@@ -189,7 +189,7 @@ title: NEETprep.com
 	                <p class="s2 wcolor2 nm" style="line-height: 1">Delhi</p>
 	              </div>
 	              <div class="small-2 cell">
-                  <div class="wc bold f-1-25x">86</div>
+                  <!-- <div class="wc bold f-1-25x">86</div> -->
                 </div>
                 <div class="small-2 cell">
                   <div class="wc f-1-25x">653</div>
@@ -204,7 +204,7 @@ title: NEETprep.com
 	                <p class="s2 wcolor2 nm" style="line-height: 1">Delhi</p>
 	              </div>
 	              <div class="small-2 cell">
-                  <div class="wc bold f-1-25x">86</div>
+                  <!-- <div class="wc bold f-1-25x">86</div> -->
                 </div>
                 <div class="small-2 cell">
                   <div class="wc f-1-25x">650</div>
@@ -219,7 +219,7 @@ title: NEETprep.com
 	                <p class="s2 wcolor2 nm" style="line-height: 1">Rajasthan</p>
 	              </div>
 	              <div class="small-2 cell">
-                  <div class="wc bold f-1-25x">86</div>
+                  <!-- <div class="wc bold f-1-25x">86</div> -->
                 </div>
                 <div class="small-2 cell">
                   <div class="wc f-1-25x">620</div>

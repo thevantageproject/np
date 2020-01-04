@@ -2,7 +2,7 @@
 layout: post
 title: NEET 2020 Exam Information
 categories: 
-permalink: /neet-2020/
+permalink: /neet-content/
 <!-- image: bg2.jg -->
 description: 
 ---
