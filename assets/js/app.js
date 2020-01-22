@@ -32,3 +32,22 @@ $(document).foundation();
 //     }
 //     $(".parallax-background").css({"background-image": "url('" + imageUrl + "')","background-position": bgpos});
 // });
+
+
+$(".coursesgrid .cell h3").click(function() {
+    $(".coursesgrid .cell").removeClass('actives').addClass('op');
+    $(".coursesgrid .cell").first().removeClass('op');
+    $(this).parent().addClass('actives').removeClass('op');
+    $('.ctabtn0').addClass('animated bounce');
+    setTimeout(function() {
+      $('.ctabtn0').removeClass('animated bounce');
+    }, 700);
+});
+
+
+function randomNumberFromRange(min,max)
+{
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+$('.v1').html(randomNumberFromRange(200, 700)+'+');

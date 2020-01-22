@@ -454,6 +454,10 @@ code{
   display:inherit;
 }
 
+.actives{
+	border-left:3px solid $lightblue;
+}
+
 .share-box a {
   display: inline-block;
   border:1px solid #dedede;
