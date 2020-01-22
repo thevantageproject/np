@@ -51,3 +51,14 @@ function randomNumberFromRange(min,max)
 }
 
 $('.v1').html(randomNumberFromRange(200, 700)+'+');
+
+
+$('.v2').click(function(e){
+  e.preventDefault();
+  $('.vw1').fadeOut(600);
+  $('.vw2').delay(800).fadeIn(600);
+  $('.v2').slideUp().addClass('v3');
+  setTimeout(function(){
+    $('.v3').removeClass('success').html('take my first class').slideDown();
+  }, 5000);
+});
