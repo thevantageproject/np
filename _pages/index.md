@@ -24,6 +24,10 @@ title: NEETprep.com
 			        <li><a href="" class="scolor2">Ask the Counselor</a></li>
 			        <li><a href="" class="scolor2">Login</a></li>
 			      </ul>
+			      <ul class="menu align-right hover b-ws-top">
+			        <li><a href="" class="active scolor">Neetprep</a></li>
+			        <li><a href="/x/" class="">Neetprep X</a></li>
+			      </ul>
 					</div>
 				</div>
 			</div>
@@ -31,15 +35,15 @@ title: NEETprep.com
 				<div class="grid-x grid-padding-x">
 					<div class="small-8 cell " style="margin-top: 4em">
 						<!-- <p class="bc f-1-5x" style="line-height: 1.2;">We are every Indian's bridge between a future doctor's dreams and reality. </p> -->
-						<h2 class="bc">Personalized. Faculty-mentored.</h2>
+						<h2 class="bc">System-Driven. Personalized.</h2>
 						<h1>Online NEET coaching</h1>
 						<h3 class="scolor2">for every Indian.</h3>
 						<!-- <p class="scolor s-ws-top f-1-25x">1-on-1 regular attention until you crack NEET</p> -->
-						<p class="scolor s-ws-top-p f-1-25x nm">Set goal every 5 days.</p>
-						<p class="scolor f-1-25x">We work with you to achieve it until you crack NEET</p>
+						<p class="scolor s-ws-top-p f-1-25x nm">Set a target for next day.</p>
+						<p class="scolor f-1-25x">Use us to get a little closer to your dream each day.</p>
 					</div>
 					<div class="small-4 cell">
-						<img src="{{site.url}}/assets/img/dummy.jpg">
+						<img src="{{site.url}}/assets/img/dummy.png">
 					</div>
 				</div>
 			</div>
@@ -68,7 +72,7 @@ title: NEETprep.com
 			                </label>
 			              </div>
 			              <div class="small-12 medium-10 large-4 cell">
-			                <input type="submit" class="button small m-ws-top fullwidth success" style="height: 2.5375rem" value="Start first 5 days">
+			                <input type="submit" class="button small m-ws-top fullwidth success ctabtn0" style="height: 2.5375rem" value="Start first 5 days">
 			              </div>
 			            </div>
 			          </div>
@@ -89,24 +93,40 @@ title: NEETprep.com
 	<div class="grid-x grid-padding-x align-center">
 		<div class="cell small-12 medium-10 large-8">
 			<div class="grid-container">
-				<div class="grid-x grid-padding-x b-ws-top">
-					<div class="small-6 cell">
-						<h5 class="scolor2">Online Classroom Program</h5>
-						<h3 class="nm">Class 11th</h3>
-						<p class="s">For school going students appearing for NEET 2021</p>
-						<h3 class="nm">Class 12th</h3>
-						<p class="s">For school going students appearing for NEET 2020</p>
-						<h3 class="nm">Dropper</h3>
-						<p class="s">For gap year students appearing for NEET 2020</p>
+				<div class="grid-x b-ws-top">
+					<div class="small-6 cell grid-padding-x coursesgrid">
+						<div class="cell">
+							<h5 class="scolor2">Online Classroom Program</h5>
+						</div>
+						<div class="cell cs hv">
+							<h3 class="nm">Class 11th</h3>
+							<p class="s">For NEET 2021</p>
+						</div>
+						<div class="cell cs hv">
+							<h3 class="nm">Class 12th</h3>
+							<p class="s">For NEET 2020|21</p>
+						</div>
+						<div class="cell cs hv">
+							<h3 class="nm">Dropper</h3>
+							<p class="s">For NEET 2020</p>
+						</div>
 					</div>
-					<div class="small-6 cell">
-						<h5 class="scolor2">Online Last-minute Classes</h5>
-						<h3 class="nm">Crash Course <small class="gc s4">New Batch</small></h3>
-						<p class="s">For all students appearing for NEET 2020</p>
-						<h3 class="nm">Boost up course <small class="gc s4">New Batch</small></h3>
-						<p class="s">For students looking to rank push for NEET 2020</p>
-						<h3 class="nm">Test Series</h3>
-						<p class="s">For all students appearing for NEET 2020</p>
+					<div class="small-6 cell grid-padding-x coursesgrid">
+						<div class="cell ">
+							<h5 class="scolor2">Online Last-minute Classes</h5>
+						</div>
+						<div class="cell cs hv">
+							<h3 class="nm">Crash Course <small class="gc s4">New Batch</small></h3>
+							<p class="s">For NEET 2020</p>
+						</div>
+						<div class="cell cs hv">
+							<h3 class="nm">Boost up course <small class="gc s4">New Batch</small></h3>
+							<p class="s">For NEET 2020</p>
+						</div>
+						<div class="cell cs hv">
+							<h3 class="nm">Test Series</h3>
+							<p class="s">For NEET 2020</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -283,7 +303,7 @@ title: NEETprep.com
 			</div>
 			<div class="small-12 medium-9 large-6 cell b-ws-bottom">
 				<p class="nm s"><span class="bold f-1-25x bc">3000+</span> currently 	enrolled</p>
-				<p class="nm s"><span class="bold f-1-25x bc">300+</span> currently studying and logged in</p>
+				<p class="nm s"><span class="bold f-1-25x bc v1">300+</span> currently studying and logged in</p>
 			</div>
 			<div class="small-12 medium-1 large-2 cell text-right">
 				<div class="button">Locate me</div>
@@ -296,13 +316,13 @@ title: NEETprep.com
 		<div class="small-12 medium-10 large-8 cell b-ws-top b-ws-bottom">
 			<div class="grid-x grid-padding-x m-ws-top-p b-ws-bottom">
 				<div class="small-4 cell">
-					<img src="https://cdn.dribbble.com/users/1022240/screenshots/3334512/daily-ui-_049-notifications_dribbble.gif">
+					<img src="{{site.url}}/assets/img/calendar.png">
 				</div>
 				<div class="small-8 cell">
-					<h3>Your personal guide</h3>
-					<p>We make it easy for you to figure out where to start studying, and to stay motivated until test day.</p>
+					<h3>24x7 guided personlized schedule</h3>
+					<p>Sudhanshu sir will guide you as your personlized avatar coach will guide you  We make it easy for you to figure out where to start studying, and to stay motivated until test day.</p>
 					<p>Our 11 carefully crafted study schedules accommodate varying study times and skills , so you'll always know the best way to study. Don't waste time thinking, get doing.</p>
-					<a class="btn np">Start a schedule</a>
+					<a class="btn np">Try a day</a>
 				</div>
 			</div>
 			<div class="grid-x grid-padding-x b-ws-top-p b-ws-bottom">
@@ -313,19 +333,19 @@ title: NEETprep.com
 					<a class="btn np">Meet the faculty</a>
 				</div>
 				<div class="small-4 cell">
-					<img src="https://miro.medium.com/max/1250/1*m7Qm8kZYfFfvioSETLSIsw.gif">
+					<img src="{{site.url}}/assets/img/faculty.png">
 				</div>
 				
 			</div>
 			<div class="grid-x grid-padding-x b-ws-bottom b-ws-top-p">
 				<div class="small-4 cell">
-					<img src="https://miro.medium.com/max/1600/1*iD94E_pCInOFEp660Z8QqA.png">
+					<img src="{{site.url}}/assets/img/leaderboard.png">
 				</div>
 				<div class="small-8 cell">
 					<h3>Never prepare alone. Again.</h3>
 					<p>We help you keep track of your progress with an intuitive dashboard that estimates your score, compares your pace with other students, and tracks your learning.</p>
 					<p>Our smart review system allows you to review your performance based on time, difficulty, subject, or according to your own bookmarks, so you’ll know exactly what to focus on next.</p>
-					<a class="btn np">Find batchmates near me</a>
+					<a class="btn np">Find batch-mates near me</a>
 				</div>
 			</div>
 		</div>
@@ -357,10 +377,10 @@ title: NEETprep.com
 		</div>
 	</div>
 </div>
-<div class="grid-container">
+<!-- <div class="grid-container">
 	<div class="grid-x grid-padding-x align-center">
 		<div class="small-12 medium-10 large-8 cell b-ws-top b-ws-bottom">
-			<div class="grid-x grid-margin-x">
+		 <div class="grid-x grid-margin-x">
 			  <div class="cell small-10">
 			    <div class="slider" data-slider data-initial-start="50">
 			      <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1"></span>
@@ -371,7 +391,46 @@ title: NEETprep.com
 			    <input type="number" id="sliderOutput1" placeholder="days remaining">
 			  </div>
 			</div>
-			<div class="button">Find a batch near me</div>
+			<div class="button">Start my first 5 days</div>
+		</div>
+	</div>
+</div> -->
+<div class="grid-container">
+	<div class="grid-x grid-padding-x align-center">
+		<div class="cell small-12 medium-12 large-10 m-ws-top">
+			<div class="grid-container">
+				<div class="grid-x">
+					<div class="small-12 cell">
+						<div class="lgbr brr dbbg" id="top">
+			        <form action="https://www.neetprep.com/php/LeadInsert.php" method="post" class="s-ws-top">
+			          <div class="grid-container">
+			            <div class="grid-x grid-padding-x text-left align-center">
+			              <div class="small-12 medium-10 large-4 cell">
+			                <label class="wcolor">Your name
+			                  <input type="text" name="name" required="" placeholder="Your Name">
+			                </label>
+			              </div>
+			              <div class="small-12 medium-10 large-4 cell np">
+			                <label class="wcolor">Your mobile
+			                  <input type="tel" name="mobile" required="" placeholder="Your Phone number" minlength="10" maxlength="10" pattern="[789][0-9]{9}">
+			                  <!-- <input type="tel" name="mobile" required placeholder="Your Phone number" minlength="8" maxlength="12"> -->
+			                </label>
+			              </div>
+			              <div class="small-12 medium-10 large-4 cell">
+			                <input type="submit" class="button small m-ws-top fullwidth success ctabtn0" style="height: 2.5375rem" value="Start first 5 days">
+			              </div>
+			            </div>
+			          </div>
+			          <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+			          <input type="hidden" name="utm_source" id="utm_source" value="">
+			          <input type="hidden" name="utm_medium" id="utm_medium" value="">
+			          <input type="hidden" name="gclid" id="gclid" value="">
+			          <input type="hidden" name="redirect_url" id="redirect" value="https://www.neetprep.com/dashboard">
+			        </form>
+			      </div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
