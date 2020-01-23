@@ -59,6 +59,6 @@ $('.v2').click(function(e){
   $('.vw2').delay(800).fadeIn(600);
   $('.v2').slideUp().addClass('v3');
   setTimeout(function(){
-    $('.v3').removeClass('success').html('take my first class').slideDown();
+    $('.v3').removeClass('success v2').html('Start my first class').slideDown();
   }, 5000);
 });
