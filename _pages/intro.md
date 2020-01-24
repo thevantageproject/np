@@ -42,7 +42,8 @@ title: NEETprep.com
 	</div>
 	<div class="grid-x align-center">
 		<div class="cell small-12 medium-10 large-8">
-			<div style="padding-top: 50%; position: relative; overflow: hidden;"><iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=false&autopause=true&muted=false&loop=true&url=https%3A%2F%2Fvimeo.com%2F226137389&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>
+			<div id="iframe_div" style="padding-top: 50%; position: relative; overflow: hidden;">
+			</div>
 		</div>
 	</div>
 	<div class="grid-x grid-padding-x align-center">
@@ -62,7 +63,7 @@ title: NEETprep.com
 		</div>
 	</div>
 	<div class="grid-x grid-padding-x align-center">
-		<div class="cell small-12 medium-10 large-8 xs-ws-top" style="height: 15em; overflow-y: auto;">
+		<div id="testimonial_div" class="cell small-12 medium-10 large-8 xs-ws-top" style="height: 15em; overflow-y: auto;">
 			<div class="grid-x grid-padding-x xs-ws-bottom">
 				<div class="small-2 cell">
 		      <img class="mt-3 circle-img lgbr gs hv" src="https://randomuser.me/api/portraits/men/82.jpg"  />
