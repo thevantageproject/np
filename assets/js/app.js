@@ -53,10 +53,37 @@ function randomNumberFromRange(min,max)
 $('.v1').html(randomNumberFromRange(200, 700)+'+');
 
 
+
+
 $('.v2').click(function(e){
   e.preventDefault();
   $('.vw1').fadeOut(600);
   $('.vw2').delay(800).fadeIn(600);
+  $('#iframe_div').html(`
+    <iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=true&autopause=true&muted=false&loop=true&url=https%3A%2F%2Fvimeo.com%2F226137389&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe>
+  `);
+
+  //$("#testimonial_div").html("");
+  function slideFade (elem, callback) {
+      const fade = { opacity: 0, transition: 'opacity 0.5s' };
+      elem.css(fade).delay(100).slideUp("slow", callback);
+  }
+  setInterval(function () {
+    var top_element = $("#testimonial_div").children()[0];
+    slideFade($(top_element), function () {
+      $("#testimonial_div").children()[0].remove();
+      $("#testimonial_div").append($(top_element).show());
+      $(top_element).css({opacity: 100});
+    });
+    // $($("#testimonial_div").children()[0]).slideUp('slow', function () {
+    //   $("#testimonial_div").children()[0].remove();
+    //   $("#testimonial_div").append($(top_element).show());
+    // });    
+    // $.each($("#testimonial_div").children(), function (index, value) {
+    //   value.show("slide", {direction: "up"}, "1000")
+    // });
+  }, 2000);
+
   $('.v2').slideUp().addClass('v3');
   setTimeout(function(){
     $('.v3').removeClass('success v2').html('Start my first class').slideDown();
