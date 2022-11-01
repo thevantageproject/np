@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "motion-ui": "^1.2.3"
   },
   "devDependencies": {
